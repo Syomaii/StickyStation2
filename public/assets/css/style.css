@@ -1,0 +1,185 @@
+nav .navbar-nav a{
+    font-size: 40px;
+}
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100% !important;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.logo {
+    height: 80px;
+    padding: 0;
+    top: -25px;
+}
+
+/* .home-btn {
+    /* Add styles as needed */
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust as needed */
+    width: 100%;
+}
+    
+.image-container img {
+    display: block;
+    width: 100%;
+    opacity: 0.8; /* Adjust base image opacity */
+}
+    
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the darkness */
+    pointer-events: none;
+}
+    
+
+nav {
+    padding-left: 20px;
+    position: relative;
+    z-index: 1020; /* Ensure nav has a high z-index */
+}
+
+.navbar-toggler {
+    border: 2px solid #000; /* Add border for better visibility */
+    background-color: #ffffff; /* Set background color */
+    z-index: 1030; /* Ensure button has a higher z-index */
+}
+
+.navbar-toggler-icon {
+    color: #000; /* Change color of the icon */
+}
+
+/* Center the navbar items */
+.collapse.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav.ms-auto .nav-link {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav.ms-auto .nav-link[href='/login'] {
+    color: green !important;
+}
+
+.card {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.btn-link {
+    padding: 0;
+    font-size: 0.875rem;
+}
+
+.card-price {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.f-card {
+    padding: 10px;
+    height: 30rem; /* Fixed height for the card */
+}
+.f-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.f-title {
+    margin-bottom: 10px;
+}
+.f-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .fab {
+    margin-right: 15px;
+}
+
+.btn-del{
+    width: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 50%;
+    width: 250px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    padding-top: 60px; /* Adjust based on your navbar height */
+}
+html, body {
+    height: 100%;
+}
+
+/* Main content should take all available space except for the footer height */
+.content {
+    min-height: calc(100% - 120px); /* Adjust this based on footer height */
+    margin-bottom: 120px; /* Adjust this based on footer height */
+}
+
+/* Fixed footer styling */
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.admin{
+    margin-left: 200px;
+}
+
+.text-admin{
+    margin-left: 175px;
+}
